@@ -3682,7 +3682,12 @@ li .qrco:before {
 }
 
 .business_item .business_bn {
+    width: 100%;
+}
+.business_item .business_bn.single {
     width: 50%;
+    margin: 0 auto;
+    padding-top: 25px;
 }
 
 .business_item .business_bn .bx-wrapper .bx-prev {
@@ -3729,6 +3734,10 @@ li .qrco:before {
     .business_bn .bx-wrapper .item {
         max-height: 320px;
         overflow: hidden;
+    }
+    .business_bn.single .bx-wrapper .item {
+        max-height: none;
+        overflow: visible;
     }
     /*      media*/
     .wrapper .media-page .media-list .list-item .item img {
