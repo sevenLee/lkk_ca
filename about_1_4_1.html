@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="favicon.ico">
+
+        <title>LKK</title>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="js/bxslider/jquery.bxslider.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+        <link href="css/style2.min.css" rel="stylesheet">
+        <link href="css/swiper.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 10]>
+            <link href="css/idangerous.swiper.css" rel="stylesheet">
+        <![endif]-->
+        <!--[if lt IE 9]>
+          <link href="css/ie-hack.min.css" rel="stylesheet">
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <!-- NAVBAR
+    ================================================== -->
+    <body>
+        <div class="mask"></div>
+        <header>
+            <div class="container" id="top">
+                <!--  mobile_logo-->
+                    <a class="navbar-brand  hidden-xs" href="index.html">
+                        <img src="img/logo.jpg" alt="logo">
+
+                    </a>
+                 <!--  mobile_logo_end-->
+                <ul class="top-nav hidden-xs">
+                    <li class="home_icon"><a href="">首页</a></li>
+                    <li class="dropdown member">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            集团成员<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.infinitus-int.com">李锦记健康产品集团</a></li>
+                            <li><a href="http://www.infinitus.com.cn">无限极（中国）有限公司</a></li>
+                            <li><a href="http://www.infinitus.com.hk">无限极（香港）有限公司</a></li>
+                            <li><a href="http://www.infinitus-int.com.tw">无限极国际有限公司</a></li>
+                            <li><a href="http://www.infinitus.my">无限极国际（马来西亚）有限公司</a></li>
+                            <li><a href="http://www.iheha.com/cn-sc/index.html">爽乐健康科技有限公司</a></li>
+                        </ul>
+                    </li>
+
+                     
+                    <li class="contact"><a href="contact_us.html">联系我们</a></li>
+
+                    <li class="dropdown lang">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            简体中文<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        
+                        <ul class="dropdown-menu">
+                            <li><a href="">简体中文</a></li>
+                            <li><a href="">繁體中文</a></li>
+                        </ul>
+
+                    </li>
+                   <li class="search search-input">
+                        <form method="post">
+                            <input type="text" name="" placeholder="搜寻李锦记健康产品集团" class="index_input">          
+                            <div class="inpt_icon"></div>
+                        </form>
+                        
+                    </li>
+                
+                </ul>
+
+
+                <nav class="navbar main-navbox">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!--  mobile_logo-->
+                            <a class="navbar-brand visible-xs" href="index.html">
+                                <img src="img/logo.jpg" alt="logo">
+
+                            </a>
+                            <!--  mobile_logo_end-->
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav main-nav">
+                            <li class="search visible-xs search-input">
+                                <form method="post">
+                                    <input type="text" name="" placeholder="搜寻李锦记健康产品集团">
+                              <div class="inpt_icon"></div>
+                                </form>
+                                
+                            </li>
+                            <li class="search type-2 visible-xs">
+                                   <select name="" onchange="window.open(this.options[this.selectedIndex].value)">
+                            <option value="">集团成员</option>
+                            <option value="http://www.infinitus-int.com">李锦记健康产品集团</option>
+                            <option value="http://www.infinitus.com.cn">无限极（中国）有限公司</option>
+                            <option value="http://www.infinitus.com.hk"> 无限极（香港）有限公司</option>
+                            <option value="http://www.infinitus-int.com.tw">无限极国际有限公司</option>
+                            <option value="http://www.infinitus.my">无限极国际（马来西亚）有限公司</option>
+                            <option value="http://www.iheha.com/cn-sc/index.html">爽乐健康科技有限公司</option>
+                        </select> 
+                            </li>
+                             <li><a href="about_1_4.html">企业文化<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                
+                            </li>
+                            <li><a href="#">关於我们<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                <ul>
+                                    <li><a href="">公司簡介</a></li>
+                                    <li><a href="about_1_2.html">主席的话 </a></li>
+                                    <li><a href="about_1_3.html">大事记</a></li>
+                                    <li><a href="about_qa_1_5.html">常見問題</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">集团成员<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                <ul>
+                                    <li><a href="business.html">无限极</a></li>
+                                    <li><a href="">天方健</a></li>
+                                    <li><a href="">爽乐</a></li>
+                                    <li><a href="">物业管理</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">新闻中心<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                <ul>
+                                    <li><a href="events_3_1.html">公司动态</a></li>
+                                    <li><a href="">媒体报导</a></li>
+                                    <li><a href="album_3_4.html">图片库</a></li>
+                                    <li><a href="video_3_5.html">视频中心</a></li>
+                                    <li><a href="magazine_3_4.html">电子杂志</a></li>
+                                    <li><a href="media_3_7.html">新媒体</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">可持续发展<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                <ul>
+                                    <li><a href="csr_cognition_4_1.html">CSR认知</a></li>
+                                    <li><a href="duty_range_4_2.html">責任範圍</a></li>
+                                    <li><a href="csr_report_4_3.html">CSR报告</a></li>
+                                    <li><a href="foundation_4_4.html">思利及人公益基金会</a></li> 
+                                    <li><a href="">“爽”基金</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">加入我们<span class="visible-xs glyphicon glyphicon-menu-right"></span></a>
+                                <ul>
+                                    <li><a href="Join_5_2.html">工作环境</a></li>
+                                    <li><a href="Join_5_1.html">团队展示</a></li>
+                                    <li><a href="Join_5_4.html">薪酬福利</a></li>
+                                    <li><a href="Join_5_5.html">认可与激励</a></li>
+                                    <li><a href="Join_5_6.html">培训发展</a></li>
+                                    <li><a href="Join_5_7.html">申请职位</a></li>
+                                </ul>
+                            </li>
+                            <li class="visible-xs"><a href="">首頁<span class="visible-xs glyphicon glyphicon-menu-right"></span></a></li>
+                            <li class="lang visible-xs"><a href="">简体中文</a></li>
+                            <li class="lang visible-xs"><a href="">繁體中文</a></li>
+                            <li class="contact visible-xs"><a href="contact_us.html">联系我们</a></li>
+                           
+                          </ul>
+                        </div><!-- /.navbar-collapse -->                        
+                    </div>
+                    
+                        
+                </nav>
+            </div>
+        </header>
+
+    
+        <!--  KV -->
+        
+            <div class= "container about_us">
+                <div class="about_bn" >
+                    <p>
+                    关于我们
+                    </p>
+                    <img src="img/about_bn.png" class="about_bg ie-only">
+                </div>
+            </div>
+       
+        <!-- end  KV -->
+
+     
+          
+        <div class="wrapper index-service-box about_wrapper">
+            <div class="container title hidden-xs">
+            <p style="color:#707070;"><span><a href="#" style="color:#707070;">首页</a></span>><span>思利及人的力量</span></p>
+            </div>
+            <h2 class="title main_title_arr"><span>
+            思利及人的力量
+            </span></h2>
+          
+        </div>
+        <hr  class="hidden-xs">
+    <div class="width_opt_box visible-xs">
+            <div class="width_opt opt">
+                  <span class="select_ui"><span class="select_text_ui" style="min-width: 5.5em;">思利及人的力量</span><b class="select_arrow"></b>
+                  <select name="">
+                        <option value="">思利及人的力量</option>
+                        <option value="">思利及人的力量</option>
+                          
+                    </select></span>
+            </div>            
+          </div>
+    <!-- content -->
+
+    <div class="wrapper">
+        <div class="container">
+           <div class="con_1_4_1 inner-page mt30">
+              <div class="aba_left">
+                <div class="abimg">
+                     <div class="ab_slider">
+                          <div class="slide">
+
+                             <img src="img/ab1.jpg" alt="">
+                         </div>
+                           <div class="slide">
+                            <!--
+                            <video title="Big Buck Bunny" controls="" style="width:100%;">
+                               <source src="Big_Buck_Bunny_Trailer.m4v" type="video/mp4">
+                            </video>
+                            //-->
+                               <video controls="controls" poster="./img/big-buck-bunny_poster.jpg" width="100%">
+                                    <source src="./big_buck_bunny.mp4" type="video/mp4" />
+                                    <object id="fl" type="application/x-shockwave-flash" data="js/flashfox.swf" width="702" height="420">
+                                        <param name="movie" value="js/flashfox.swf" />
+                                        <param name="allowFullScreen" value="true" />
+                                        <param name="wmode" value="transparent" />
+                                        <param name="flashVars" value="controls=true&amp;poster=http%3A%2F%2F220.134.75.46%2Flkkie%2Fimg%2Fbig-buck-bunny_poster.jpg&amp;src=http%3A%2F%2F220.134.75.46%2Flkkie%2Fbig_buck_bunny.mp4" />
+                                        <img src="./img/big-buck-bunny_poster.jpg" width="702" height="420" title="No video playback capabilities, please download the video below" />
+                                    </object>
+                                </video>
+                         </div>
+                     </div>
+                </div>
+                
+                <div class="ab_txt">
+                  <h4>思利及人的力量</h4>
+                  <span>
+                   <p>现代社会，物质虽极大丰富，但我们内心的成就感与幸福感是否也在同步增长？生命仅有一次，如何度过才不算虚度年华？如何才能拥有自信、快乐和成功的人生？</p>
+                   <p>人生难得，值得我们用心经营，让自己的人生有成就。怎样成就一生？相信这个问题的答案每个人都想知道，也一直在苦苦思考和探寻。事实上，决定一个人能否有所成就取决于他的价值观。价值观决定了一个人做事的基本原则，做人做事的基本原则决定了一个人在面对变化的世界时所采取的各种行动。而这些行动最终决定这个人一生的成就。</p>
+                   <p>作者李惠森，作为香港百年老字号“李锦记”第四代传人之一，将源自中华传统智慧的“思利及人”作为核心价值观，在长期的工作与生活的实践中，探寻这一智慧的秘诀。做事之前先思考如何有利于我们大家，这就是思利及人。平实的语言，本质的揭示，一语道破了“天机”。<br>
+“思利及人”中蕴含着成就一生的力量，它体现为9个法则：使命、借力、创新、自律、专心、诚信、学习、平衡和系统。无论对家人，对朋友，对同事，对合作伙伴，还是对其他人，只要在行动上坚持这九个法则，你就能收获成功、美满的人生。</p>
+                    
+                  </span>
+                  
+                </div>
+
+              </div>
+              <div class="aba_right hidden-xs">
+                    <a href="#" class="ts">
+                        <div class="left"><img src="img/le1.jpg"></div>
+                        <div class="right">思利及人的力量</div>
+                    </a>
+                    <a href="#" class="ts">
+                        <div class="left"><img src="img/le2.jpg"></div>
+                        <div class="right">自动波领导模式</div>
+                    </a>
+                    <a href="#" class="ts">
+                        <div class="left"><img src="img/l3.jpg"></div>
+                        <div class="right">企业文化视频</div>
+                    </a>
+                </div>
+            </div>
+          </div><!--container-->
+    </div><!--wrapper-->
+     
+        
+ <div class="top_btn_too visible-xs"><a href="#top" class="top_too"></a></div>
+        <div class="wrapper">
+            <div class="container social-btn">
+                <a href="" class="facebook"></a>
+                <a href="" class="instagram"></a>
+                <a href="" class="linkedin"></a>
+                <a href="" class="trip-advistor-nexus"></a>
+                <a href="" class="twitter"></a>
+                <a href="" class="youtube"></a>
+            </div>
+        </div>
+        <footer>
+            <div class="links">
+                <div class="container">
+                    <div class="row hidden-xs">
+                        <div class="col20">
+                            <h2>关于我们</h2>
+                            <a href="">公司简介</a>
+                            <a href="about_1_2.html">主席的话</a>
+                            <a href="about_1_3.html">大事记</a>
+                            <a href="about_1_4.html">企业文化</a>
+                            <a href="">常见问题</a>
+                        </div>
+                        <div class="col20">
+                            <h2>集团成员</h2>
+                            <a href="business.html">无限极</a>
+                            <a href="">天方健</a>
+                            <a href="">爽乐</a>
+                            <a href="">物业管理</a>
+                        </div>
+                          <div class="col20">
+                            <h2>企業文化</h2>
+                            <a href="business.html">思利及人</a>
+                            <a href="">自动波领导模式</a>
+                            <a href="">永远创业精神</a>
+                           
+                        </div>
+                        <div class="col20">
+                            <h2>新闻中心</h2>
+                            <a href="events_3_1.html">公司动态</a>
+                            <a href="">媒体报导</a>
+                            <a href="album_3_4.html">图片库</a>
+                            <a href="video_3_5.html">视频中心</a>
+                            <a href="magazine_3_4.html">电子杂志</a>
+                            <a href="media_3_7.html">新媒体</a>
+                        </div>
+                        <div class="col20">
+                            <h2>可持续发展</h2>
+                            <a href="csr_cognition_4_1.html">CSR认知</a>
+                            <a href="duty_range_4_2.html">責任範圍</a>
+                            <a href="csr_report_4_3.html">CSR报告</a>
+                            <a href="foundation_4_4.html">思利及人公益基金会</a>
+                        </div>
+                        <div class="col20">
+                            <h2>加入我们</h2>
+                            <a href="">人才文化</a>
+                            <a href="Join_5_4.html">薪酬福利</a>
+                            <a href="Join_5_6.html">培训发展</a>
+                            <a href="Join_5_7.html">申请职位</a>
+                        </div>                    
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            <div class="copyright">
+                <div class="container">©2015 LKK Health  Products Group. <span>All rights reserved. 李锦记健康产品集团</span><span class="suggest"><br>建议浏览器: IE10.0 以上，Chrome (荧幕设定最佳显示效果为1024*768)</span></div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/bxslider/jquery.bxslider.js"></script>
+        <script src="js/jquery.placeholder.min.js"></script>
+        <script type="text/javascript" src="js/script.min.js"></script>
+
+        <script src="js/jquery_select.js"></script>
+        <script src="js/jquery.dotdotdot.min.js"></script>
+        <script src="js/main_add.min.js"></script>
+
+        <script type="text/javascript">   
+            if (isIE(9) || isIE(8)) {
+                document.write('<script type="text/javascript" src="js/idangerous.swiper.js"><\/script>');
+            } else {
+                document.write('<script type="text/javascript" src="js/swiper.min.js"><\/script>');
+            }
+        </script>
+        <script type="text/javascript" src="js/ie-hack.min.js"></script>
+        
+    </body>
+</html>
+
+

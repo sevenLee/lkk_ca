@@ -1,0 +1,146 @@
+.magazine{
+	width: 848px;
+	margin: 60px auto 0;
+	@media only screen and (max-width: 900px){
+		width: 100%;
+	}
+	&:after{
+		@include clearfix();
+	}
+	.magazine-list{
+		margin-right: -8px;
+		margin-left: -8px;
+		.slide{
+			float: left;
+			/* margin-right: 16px; */
+			margin-bottom: 37px;
+			text-align: center;
+			width: 25%;
+			padding: 0 8px;
+			@media only screen and (max-width: 767px){
+				width: 50%;
+			}
+			@media only screen and (max-width: 640px){
+				width: 100%;
+				padding: 0 40px;
+			}
+			img{
+				width: 100%;
+				border: 1px solid #ebebeb;
+			}
+			> {
+				p{
+					display: block;
+					padding: 18px 0;
+					position: relative;
+					@media only screen and (max-width: 640px){
+						padding: 47px 0 6px;
+						span{
+							font-weight: bold;
+							position: absolute;
+							top: 18px; 
+							left: 0;
+							right: 0;
+							text-align: center;
+							font-size: 18px;
+						}					
+					}
+
+				}
+			}
+		}
+	}
+	.slimg_hover_con{
+		text-align: center;
+		padding-top: 60%;
+	}	
+}
+
+.magazine_r{
+	.report_con_a{
+		@media only screen and (max-width: 767px){
+			padding: 0px;
+		}
+		&:before{
+			top: -7px;
+			@media only screen and (max-width: 640px){
+				left: 10px;
+			}
+		}
+		h4{
+			@media only screen and (max-width:767px){
+				padding:68px 10px 10px ;
+				margin-bottom: 0px;
+				border-bottom: 1px solid #eaeaea;
+				text-indent: 10px;
+			}
+			@media only screen and (max-width:640px){
+				text-indent: 0px;
+				border-bottom: 0px;
+			}
+		}
+		.count{
+			position: absolute;
+			right: 42px;
+			bottom: 8px;
+			@media only screen and (max-width: 640px){
+				bottom: inherit;
+				top: 13px;
+				right: 10px;
+			}
+			&:before{
+				content:'';
+				display: inline-block;
+				width: 15px;
+				height: 10px;
+				position: relative;
+				margin-right: 5px;
+				background: url(../img/count-eye.png) 0 0 no-repeat;
+			}
+		}
+	}
+	.report_con_b{
+		padding: 20px 30px 10px;
+		@media only screen and (max-width: 640px){
+			padding: 10px;
+		}
+		span{
+			font-style: italic;
+		}
+	}
+	.report_ul{ 
+		@media only screen and (max-width: 767px){
+			float: right;
+		}
+		@media only screen and (max-width: 640px){
+			float: inherit;
+		}
+	}
+}
+
+.single-more{
+	color: #797979;
+    font-size: 12px;
+    background: #f3f3f3;
+    display: inline-block;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 6px 28px;
+    margin-bottom: 30px;
+    &:hover{
+    	color: #797979;
+    }
+    &:after{
+		content:'';
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		background: url(../img/a-down.png) 0 0 no-repeat;
+		margin-left: 5px;
+		top: 2px;
+		position: relative;
+	}
+    span{
+    	position: relative;
+    	
+    }
+}
