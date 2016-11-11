@@ -305,9 +305,11 @@ $(function(){
 	$(".search input").focus(function(){
 		$(this).attr('placeholder', '');
 	})
+	/*
 	$(".search input").blur(function(){
 		$(this).attr('placeholder', '搜寻李锦记健康产品集团');
 	})
+	*/
 
 
 	$(".index-news .list-item").bxSlider({
