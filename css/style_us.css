@@ -4135,3 +4135,60 @@ video {
         padding-bottom: 0;
     }
 }
+
+
+.award-container {
+    width: 83.4%;
+    margin: 0 auto;
+}
+
+.award-container ul {
+    list-style: none;
+    text-align: left;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.award-container ul li{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.award-container ul li .year{
+    border-bottom: 1px solid #dcdcdc;
+    color: #dd0014;
+    box-sizing: border-box;
+}
+
+.award-container ul li .content {
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .award-container ul{
+        width: 100%;
+        max-width: 100%;
+    }
+    .award-container ul li{
+        display: table;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .award-container ul li .year{
+        width: 20%;
+        display: table-cell;
+        border: none;
+        border-right: 1px solid #dcdcdc;
+        padding: 20px 0;
+    }
+    .award-container ul li .year h4{
+        margin: 0px;
+    }
+    .award-container ul li .content {
+        display: table-cell;
+        padding: 20px 0 20px 20px;
+    }
+}
+
