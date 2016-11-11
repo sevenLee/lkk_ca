@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="favicon.ico">
+
+	<title>LKK</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="js/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/style_us.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	<link href="css/swiper.min.css" rel="stylesheet">
+	<style>
+		.container.about_us .list-item {
+			background: url(img/aboutus_banner.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 180px;
+			background-position: center;
+		}
+		@media (max-width: 640px) {
+			.container.about_us .list-item {
+				background-image: url(img/aboutus_banner_mobile.jpg)!important;
+			}
+		}
+	</style>
+
+	<!--[if lt IE 10]>
+	<link href="css/idangerous.swiper.css" rel="stylesheet">
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<link href="css/ie-hack.min.css" rel="stylesheet">
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="mask"></div>
+	<header>
+		<div class="container" id="top">
+			<!--  mobile_logo-->
+			<a class="navbar-brand  hidden-xs" href="index.html">
+				<img src="img/logo-1.jpg" alt="logo">
+
+			</a>
+			<!--  mobile_logo_end-->
+			<ul class="top-nav hidden-xs">
+                    <li class="home_icon"><a href="">Home</a></li>
+                    <li class="dropdown member">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            Links<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.infinitus-int.com">李锦记健康产品集团</a></li>
+                            <li><a href="http://www.infinitus.com.cn">无限极（中国）有限公司</a></li>
+                            <li><a href="http://www.infinitus.com.hk">无限极（香港）有限公司</a></li>
+                            <li><a href="http://www.infinitus-int.com.tw">无限极国际有限公司</a></li>
+                            <li><a href="http://www.infinitus.my">无限极国际（马来西亚）有限公司</a></li>
+                            <li><a href="http://www.iheha.com/cn-sc/index.html">爽乐健康科技有限公司</a></li>
+                        </ul>
+                    </li>
+                    <li class="bgnone">
+	                    <a href="https://www.facebook.com/%E7%84%A1%E9%99%90%E6%A5%B5-Infinitus-434225430069220/" target="_blank"><img src="img/social/f_ico.png" class="icon" width="15" height="15" ></a>
+	                    <a href="javascript:void(0);" ><img src="img/social/wx_ico.png" class="icon" width="15" height="15" ></a>
+	                    <a href="https://www.youtube.com/channel/UC5uxocdxk0q08Wjt0W97F_g" target="_blank"><img src="img/social/t_ico.png" class="icon" width="15" height="15" ></a>
+
+                    </li>
+                    <!--<li class="bgnone"><a href="javascript:void(0);" ><img src="img/social/wx_ico.png" class="icon" width="15" height="15" ></a></li>-->
+                    <!--<li class="bgnone"><a href="https://www.youtube.com/channel/UC5uxocdxk0q08Wjt0W97F_g" target="_blank"><img src="img/social/t_ico.png" class="icon" width="15" height="15" ></a></li>-->
+
+                    <li class="dropdown lang">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            English<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="">English</a></li>
+                        </ul>
+                    </li>
+                   <li class="search search-input">
+                        <form method="post" id="searchForm">
+                            <input type="text" name=""  class="index_input">
+                            <div class="inpt_icon"></div>
+                        </form>
+
+                    </li>
+
+                </ul>
+
+			<nav class="navbar main-navbox">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!--  mobile_logo-->
+						<a class="navbar-brand visible-xs" href="index.html">
+							<img src="img/logo-1.jpg" alt="logo">
+						</a>
+						<!--  mobile_logo_end-->
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav main-nav">
+							<li>
+								<a href="#">About Us
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="aboutUs-CorporateCoreValue.html">Corporate Core Value</a></li>
+									<li><a href="">Company Introduction </a></li>
+									<li><a href="">Group Milestones</a></li>
+									<li><a href="">Awards & Recognitions</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Health Philosophy
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Infinitus Health Philosophy</a></li>
+									<li><a href="">Life Nurturing</a></li>
+									<li><a href="">Healthy Life</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Our Products
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Infinitus Product Category</a></li>
+									<li><a href="">Health & Food</a></li>
+									<li><a href="">Quality Assurance</a></li>
+									<li><a href="">R&D Strength</a></li>
+									<li><a href="">Uniqueness of Our Products</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Business Opportunity
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Become Business Partner</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">News
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="hidden-xs">&nbsp;&nbsp;&nbsp;CSR&nbsp;&nbsp;&nbsp;
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<a href="#" class="visible-xs">CSR
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">CSR Commitment</a></li>
+									<li><a href="">CSR Report</a></li>
+									<li><a href="">CSR Definition</a></li>
+									<li><a href="">Si Li Ji Ren Foundation</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="#">Contact Us
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+							</li>
+
+							<li class="lang visible-xs"><a href="">English</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- KV -->
+
+	<div class="container about_us">
+		<div class="list-item">
+			<p>
+				<!--                    <img src="img/abuot-title.png" alt="pc_業務範疇">-->
+				About Us
+
+			</p>
+			<img src="img/aboutus_banner.jpg" class="about_bg ie-only">
+		</div>
+	</div>
+
+	<!-- end  KV -->
+
+
+	<div class="wrapper index-service-box about_wrapper">
+		<div class="container title hidden-xs">
+			<p style="color:#707070;"><span><a href="" style="color:#707070;">Home</a></span>><span> About Us - Awards & Recognitions</span>
+			</p>
+		</div>
+		<h2 class="title  main_title_arr">
+			<!--            <img src="img/abuot-title2.png" alt="健康產品與服務">-->
+			<span>Awards & Recognitions</span>
+
+		</h2>
+
+		<!--
+		<hr class="hidden-xs">
+		<div class="container index-service">
+			<div class="item-group row">
+				<div class="fl about_title_img col-md-4 col-xs-12"><img src="img/aboutus_banner.png" alt="李錦記_banner">
+				</div>
+				<div class="fl about_title_word col-md-8 col-xs-12">
+					<h3>“无限极”品牌，专注于中草药健康产品的研发、生产、销售和服务</h3>
+					<ul>
+						<li><i>1992年，李锦记健康产品集团成立，以“弘扬中华优秀养生文化”为使命，创建了“无限极”品牌，专注于中草药健康产品的研发、生产、销售和服务，致力于为社会大众提供高品质的中草药健康产品和服务。</i>
+						</li>
+
+						<li><br></li>
+						<li><span>这一年，无限极（中国）有限公司成立。目前，在中国内地拥有两大生产基地：无限极新会生产基地和无限极营口生产基地，设立了36家分公司，28家服务中心，拥有超过5000家专卖店。在中国内地的中草药健康产品包括5大系列，6大品牌，118款产品（不含净水器滤芯及其配件）。<br>2009年，无限极开始积极部署拓展海外市场。2010年，无限极首批海外市场陆续开幕，包括无限极（香港）有限公司、无限极国际有限公司、无限极国际（马来西亚）有限公司。目前，三个海外市场向消费者提供4大系列4大品牌的20余款高质量中华草本产品，包括：无限极保健食品、萃雅护肤品、植雅个人护理品及帮得佳家居用品。经过20多年的快速发展，无限极的市场规模不断扩大，得到社会和消费者的认可，成为健康产品行业的领导品牌。2015年，经世界品牌实验室评估，“无限极”品牌价值已达至368.89亿元人民币。</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		-->
+
+	</div>
+
+	<div class="wrapper about_wrapper">
+		<hr>
+		<div class="container">
+			<div class="award-container">
+			<ul>
+				<li >
+					<div class="year"><h4>2016</h4></div>
+					<div class="content">
+						<p>The Lee Kum Kee Family donated USD 21 million to establish the Lee Kum Sheung Center for Health and Happiness at Harvard T.H. Chan School of Public Health.</p>
+						<p>LKKHPG was named one of the “Best Companies to Work for in Asia 2016”.</p>
+						<p>LKKHPG claimed “Outstanding Corporate Social Responsibility Award” byThe Mirror for the fifth time.</p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2015</h4></div>
+					<div class="content">
+						<p>Infinitus (China) Company Ltd. was certified by the Top Employers Institute as a Top Employer China 2016.</p>
+						<p>Infinitus (China) Company Ltd. and the University of Cambridge jointly established the Cambridge Infinitus Research Center.</p>
+						<p>LKKHPG claimed “Outstanding Corporate Social Responsibility Award” byThe Mirror for the fourth time.</p>
+						<p>LKKHPG expanded its business into new territories and established Naturale (China) Pharma Co., Ltd. and HeHa Digital Health Ltd., marking its entry into the fields of Chinese herbal plantation and mobile digitalization.</p>
+						<p>Infinitus (China) was granted the internationally renowned quality awards by Monde Selection, one of the most historic and authoritative third-party testing institutes in the world</p>
+						<p>Recognized as “National High-Tech Enterprise” for the third time along with its first accreditation in 2008 and the re-examination in 2011</p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2014</h4></div>
+					<div class="content">
+						<p>According to the evaluation of World Brand Lab, the brand value of Infinitus stood at RMB 36.889 billion, ranking 46th among China’s 500 Most Valuable Brands.</p>
+						<p>Infinitus (China) Company Ltd. was granted with the honorary title of "Top 100 Creditable Demonstration Units of China Food Safety".</p>
+						<p>The Infinitus Yingkou Production Base was officially completed and put into operation.</p>
+						<p>Our Chairman, Mr. Sammy Lee was honored the "2014 Anti-drug Philanthropist of China" by China National Narcotics Commission (NNCC) and China Narcotics Control Foundation (CNCF)</p>
+						<p>Infinitus (China) was crowned “Key Large-Sized Enterprise” in Guangdong, China.</p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2013</h4></div>
+					<div class="content">
+						<p><b>“Chinese Best Corporate Citizen”</b> by 21st Century Business Herald and 21st Century Business Review</p>
+						<p><b>“Golden Bee Excellent CSR Report Award Evergreen Enterprise”</b></p>
+						<p><b>“Top 100 Creditable Demonstration Units of China Food Safety”</b> for the 11th time</p>
+						<p><b>“Best Corporate Brand Image Award”</b></p>
+						<p>Honored the “Best Employer Award” and “ <b>Benchmarking Enterprise in Coporate Culture”.</b></p>
+						<p><b>“Top 100 Business Model of China Food Safety”</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2011-2013</h4></div>
+					<div class="content">
+						<p><b>“National Benchmarking Company in Quality Culture Construction”</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2012</h4></div>
+					<div class="content">
+						<p>Infinitus Product Inspection Center was officially accredited by the <b>China National Accreditation Service for Conformity Assessment (CNAS)</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2011</h4></div>
+					<div class="content">
+						<p><b>“China’s Top 10 Brands”</b> in Health Care Industry</p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2010</h4></div>
+					<div class="content">
+						<p><b>“China Food Safety Top 10 Enterprises”</b> and <b>“China’s Socially Responsible Enterprise in Food Safety Award”</b></p>
+						<p><b>“Golden Bee Excellent CSR Report’s Special Award in Social Development”</b></p>
+						<p><b>“China Marketing Benchmarking Enterprise Award”</b></p>
+						<p>Our Chairman was awarded the title of <b>“China’s Brand Person in Health Care Industry”</b></p>
+						<p><b>“Best CSR Performer Award”</b> for its contribution in the Corporate Social Responsibility field</p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2009</h4></div>
+					<div class="content">
+						<p>Infinitus Malaysia was awarded the title of <b>“Grand Master of Asia Super Excellence Master Award of Direct Sales”</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2008</h4></div>
+					<div class="content">
+						<p>Our Chairman was elected member of the <b>11th National Committee of CPPCC</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2006 & 2008</h4></div>
+					<div class="content">
+						<p><b>“China’s Top 10 Most Trusted Health Care Brands”</b></p>
+					</div>
+				</li>
+				<li >
+					<div class="year"><h4>2006</h4></div>
+					<div class="content">
+						<p><b>“China’s Quality Award”</b> and <b>“China’s Customer Satisfaction Award”</b></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+
+	<div class="top_btn visible-xs"><a href="#top" class="top"></a></div>
+
+	<footer>
+		<div class="links">
+			<div class="container">
+				<div class="row hidden-xs">
+					<div class="footer_col_ca">
+						<h2>About Us</h2>
+						<a href="">Corporate Core Value</a>
+						<a href="about_1_2.html">Company Introduction </a>
+						<a href="about_1_3.html">Group Milestones</a>
+						<a href="about_qa_1_5.html">Awards & Recognitions</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Health Philosophy</h2>
+						<a href="">Infinitus Health Philosophy</a>
+						<a href="">Life Nurturing</a>
+						<a href="">Healthy Life</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Our Products</h2>
+						<a href="">Infinitus Product Category</a>
+						<a href="">Health & Food</a>
+						<a href="">Quality Assurance</a>
+						<a href="">R&D Strength</a>
+						<a href="">Uniqueness of Our Products</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Business Opportunity</h2>
+						<a href="">Become Business Partner</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>News</h2>
+						<a href="">News</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>CSR</h2>
+						<a href="">CSR Commitment</a>
+						<a href="">CSR Report</a>
+						<a href="">CSR Definition</a>
+						<a href="">Si Li Ji Ren Foundation</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Contact Us</h2>
+						<a href="">Contact Us</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="copyright">
+
+			<div class="container">
+				<ul class="footer-nav ">
+                    <li class="split"><a href="">Confidentiality and Privacy policy</a></li>
+                    <li ><a href="">Statement of Typical Participant Earnings</a></li>
+				</ul>
+				<div class="lkk">
+					©2016 LKK Health Products Group.<br>
+					<span>All rights reserved. 李锦记健康产品集团</span>
+					<span class="suggest"><br>建议浏览器: IE10.0 以上，Chrome (荧幕设定最佳显示效果为1024*768)</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/bxslider/jquery.bxslider.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<script src="js/jquery_select.js"></script>
+	<script src="js/jquery.dotdotdot.min.js"></script>
+	<script src="js/main_add.js"></script>
+
+	<script type="text/javascript">
+		if (isIE(9) || isIE(8)) {
+			document.write('<script type="text/javascript" src="js/idangerous.swiper.js"><\/script>');
+		} else {
+			document.write('<script type="text/javascript" src="js/swiper.min.js"><\/script>');
+		}
+	</script>
+	<script type="text/javascript" src="js/ie-hack.min.js"></script>
+
+</body>
+</html>
+

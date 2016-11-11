@@ -128,6 +128,12 @@ header .container,
     color: #797a75;
 }
 
+.top-nav > li > a > img.icon {
+    display: inline-block;
+    margin-top: -2px;
+    margin-right: 9px;
+}
+
 .top-nav > li > a {
     text-decoration: none;
 }
@@ -143,7 +149,7 @@ header .container,
 }
 
 .top-nav li .dropdown-menu {
-    margin-top: -1px;
+    margin-top: -20px;
     min-width: inherit;
     padding: 0;
     -webkit-border-radius: 0;
@@ -188,13 +194,20 @@ header .container,
 
 .top-nav .contact:after,
 .top-nav .home_icon:after,
-.top-nav .member:after {
+.top-nav .member:after,
+.top-nav .bgnone:after{
     content: '|';
     display: inline-block;
     width: 12px;
 }
 
 .top-nav .contact:before {}
+
+.top-nav .bgnone:before {
+    background: none;
+    width: 0;
+    height: 0;
+}
 
 .top-nav .home_icon:before {
     background-position: -119px -1px;
@@ -276,8 +289,8 @@ header .container,
     width: 27px;
     height: 25px;
     background: url(../img/icons.png) #fff -54px 6px no-repeat;
-    right: 0px;
-    top: 0px;
+    right: 1px;
+    top: 1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -297,7 +310,7 @@ header .container,
     max-width: 250px;
     width: 200px;
     line-height: 28px;
-    border: 0;
+    border: 1px solid #e6e6e6;
     outline: 0;
 }
 
@@ -985,10 +998,63 @@ footer a:hover {
 .copyright {
     color: #ffffff;
     background-color: #525252;
+    font-size: 12px;
 }
 
 .copyright .container {
-    padding: 15px 25px 10px;
+    padding: 15px 15px 10px;
+}
+
+footer .footer-nav {
+    float: none;
+    list-style: none;
+    text-align: left;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+footer .footer-nav .split:after{
+    content: '|';
+    display: inline-block;
+    width: 13px;
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+footer .copyright .lkk {
+    float: left;
+    margin-top: 15px;
+}
+
+footer .footer-nav li {
+    padding: 0 6px 0 0;
+    color: #797a75;
+    display: block;
+    position: relative;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    footer .footer-nav {
+        float: right;
+    }
+
+    footer .footer-nav li {
+        display: inline-block;
+    }
+
+    footer .copyright .lkk {
+        float: none;
+        margin: 0;
+    }
+}
+
+footer .footer-nav li a {
+    display: inline;
+    margin-top: 0;
+    padding: 0;
 }
 
 .col20 {
@@ -3682,7 +3748,12 @@ li .qrco:before {
 }
 
 .business_item .business_bn {
-    width: 50%;
+    width: 100%;
+}
+.business_item .business_bn.single {
+    width: 77%;
+    margin: 0 auto;
+    padding-top: 25px;
 }
 
 .business_item .business_bn .bx-wrapper .bx-prev {
@@ -3729,6 +3800,10 @@ li .qrco:before {
     .business_bn .bx-wrapper .item {
         max-height: 320px;
         overflow: hidden;
+    }
+    .business_bn.single .bx-wrapper .item {
+        max-height: none;
+        overflow: visible;
     }
     /*      media*/
     .wrapper .media-page .media-list .list-item .item img {
@@ -4005,7 +4080,7 @@ li .qrco:before {
 }
 
 .top-nav li {
-    height: 70px;
+    height: 100px;
 }
 
 .top-nav li li {
@@ -4025,5 +4100,58 @@ video {
     .top-nav .search .index_input {
         padding-top: 0;
         padding-bottom: 0;
+    }
+}
+
+.award-container {
+    width: 83.4%;
+    margin: 0 auto;
+}
+
+.award-container ul {
+    list-style: none;
+    text-align: left;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.award-container ul li{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.award-container ul li .year{
+    border-bottom: 1px solid #dcdcdc;
+    color: #dd0014;
+}
+
+.award-container ul li .content {
+    padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+    .award-container ul{
+        width: 100%;
+        max-width: 100%;
+    }
+    .award-container ul li{
+        display: table;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .award-container ul li .year{
+        width: 20%;
+        display: table-cell;
+        border: none;
+        border-right: 1px solid #dcdcdc;
+        padding: 20px 0;
+    }
+    .award-container ul li .year h4{
+        margin: 0px;
+    }
+    .award-container ul li .content {
+        display: table-cell;
+        padding: 20px 0 20px 20px;
     }
 }
