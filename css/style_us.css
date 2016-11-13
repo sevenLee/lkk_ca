@@ -4192,3 +4192,66 @@ video {
     }
 }
 
+
+.contact-container > ul {
+    list-style: none;
+    text-align: left;
+    line-height: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-container > ul > li{
+    display: block;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #ebebeb;
+    padding: 20px;
+}
+
+.contact-container > ul > li > h4{
+    padding: 0 0 20px;
+    margin: 0;
+    color: #dd0014;
+}
+
+.contact-container .section .pic > img{
+    width: 100%;
+}
+
+.contact-container .section p {
+    margin-bottom: 7px;
+}
+
+.contact-container .section .pic {
+    width: 25%;
+    float: left;
+}
+.contact-container .section .info {
+    width: 75%;
+    float: left;
+    padding-left: 15px;
+}
+
+.contact-container .section.nopic .info {
+    width: 100%;
+    padding-left: 0px;
+}
+
+
+@media (max-width: 600px) {
+    .contact-container .section .pic {
+        width: 100%;
+    }
+    .contact-container .section .info {
+        width: 100%;
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .contact-container .section.nopic .info {
+        margin-top: 0px;
+    }
+}
+
+
