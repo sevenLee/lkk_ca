@@ -4230,7 +4230,7 @@ video {
 .contact-container .section .info {
     width: 75%;
     float: left;
-    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .contact-container .section.nopic .info {
@@ -4245,12 +4245,7 @@ video {
     }
     .contact-container .section .info {
         width: 100%;
-        margin-top: 15px;
         padding: 0;
-    }
-
-    .contact-container .section.nopic .info {
-        margin-top: 0px;
     }
 }
 
