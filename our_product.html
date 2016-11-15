@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="favicon.ico">
+
+	<title>LKK</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="js/bxslider/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/style_us.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
+	<link href="css/swiper.min.css" rel="stylesheet">
+	<style>
+		.container.about_us .list-item {
+			background: url(img/aboutus_banner.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 180px;
+			background-position: center;
+		}
+
+		@media (max-width: 640px) {
+			.container.about_us .list-item {
+				background-image: url(img/aboutus_banner_mobile.jpg) !important;
+			}
+		}
+	</style>
+
+	<!--[if lt IE 10]>
+	<link href="css/idangerous.swiper.css" rel="stylesheet">
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<link href="css/ie-hack.min.css" rel="stylesheet">
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="mask"></div>
+	<header>
+		<div class="container" id="top">
+			<!--  mobile_logo-->
+			<a class="navbar-brand  hidden-xs" href="index.html">
+				<img src="img/logo-1.jpg" alt="logo">
+
+			</a>
+			<!--  mobile_logo_end-->
+			<ul class="top-nav hidden-xs">
+                    <li class="home_icon"><a href="">Home</a></li>
+                    <li class="dropdown member">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            Links<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.infinitus-int.com">李锦记健康产品集团</a></li>
+                            <li><a href="http://www.infinitus.com.cn">无限极（中国）有限公司</a></li>
+                            <li><a href="http://www.infinitus.com.hk">无限极（香港）有限公司</a></li>
+                            <li><a href="http://www.infinitus-int.com.tw">无限极国际有限公司</a></li>
+                            <li><a href="http://www.infinitus.my">无限极国际（马来西亚）有限公司</a></li>
+                            <li><a href="http://www.iheha.com/cn-sc/index.html">爽乐健康科技有限公司</a></li>
+                        </ul>
+                    </li>
+                    <li class="bgnone">
+	                    <a href="https://www.facebook.com/%E7%84%A1%E9%99%90%E6%A5%B5-Infinitus-434225430069220/"
+	                       target="_blank"><img src="img/social/f_ico.png" class="icon" width="15" height="15"></a>
+	                    <a href="javascript:void(0);"><img src="img/social/wx_ico.png" class="icon" width="15"
+	                                                       height="15"></a>
+	                    <a href="https://www.youtube.com/channel/UC5uxocdxk0q08Wjt0W97F_g" target="_blank"><img
+		                    src="img/social/t_ico.png" class="icon" width="15" height="15"></a>
+
+                    </li>
+				<!--<li class="bgnone"><a href="javascript:void(0);" ><img src="img/social/wx_ico.png" class="icon" width="15" height="15" ></a></li>-->
+				<!--<li class="bgnone"><a href="https://www.youtube.com/channel/UC5uxocdxk0q08Wjt0W97F_g" target="_blank"><img src="img/social/t_ico.png" class="icon" width="15" height="15" ></a></li>-->
+
+                    <li class="dropdown lang">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            English<span class="glyphicon glyphicon-chevron-down"></span>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="">English</a></li>
+                        </ul>
+                    </li>
+                    <li class="search search-input">
+                        <form method="post" id="searchForm">
+                            <input type="text" name="" class="index_input">
+                            <div class="inpt_icon"></div>
+                        </form>
+                    </li>
+
+                </ul>
+
+			<nav class="navbar main-navbox">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!--  mobile_logo-->
+						<a class="navbar-brand visible-xs" href="index.html">
+							<img src="img/logo-1.jpg" alt="logo">
+						</a>
+						<!--  mobile_logo_end-->
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav main-nav">
+							<li class="search visible-xs search-input">
+                                <form method="post">
+                                    <input type="text" name="" placeholder="">
+                              <div class="inpt_icon"></div>
+                                </form>
+
+                            </li>
+                            <li class="search type-2 visible-xs">
+                               <select name="" onchange="window.open(this.options[this.selectedIndex].value)">
+		                            <option value="">集团成员</option>
+		                            <option value="http://www.infinitus-int.com">李锦记健康产品集团</option>
+		                            <option value="http://www.infinitus.com.cn">无限极（中国）有限公司</option>
+		                            <option value="http://www.infinitus.com.hk"> 无限极（香港）有限公司</option>
+		                            <option value="http://www.infinitus-int.com.tw">无限极国际有限公司</option>
+		                            <option value="http://www.infinitus.my">无限极国际（马来西亚）有限公司</option>
+		                            <option value="http://www.iheha.com/cn-sc/index.html">爽乐健康科技有限公司</option>
+		                        </select>
+                            </li>
+
+
+							<li>
+								<a href="#">About Us
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="aboutUs-CorporateCoreValue.html">Corporate Core Value</a></li>
+									<li><a href="">Company Introduction </a></li>
+									<li><a href="">Group Milestones</a></li>
+									<li><a href="">Awards & Recognitions</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Health Philosophy
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Infinitus Health Philosophy</a></li>
+									<li><a href="">Life Nurturing</a></li>
+									<li><a href="">Healthy Life</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Our Products
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Infinitus Product Category</a></li>
+									<li><a href="">Health & Food</a></li>
+									<li><a href="">Quality Assurance</a></li>
+									<li><a href="">R&D Strength</a></li>
+									<li><a href="">Uniqueness of Our Products</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Business Opportunity
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">Become Business Partner</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">News
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="hidden-xs">&nbsp;&nbsp;&nbsp;CSR&nbsp;&nbsp;&nbsp;
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<a href="#" class="visible-xs">CSR
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+								<ul>
+									<li><a href="">CSR Commitment</a></li>
+									<li><a href="">CSR Report</a></li>
+									<li><a href="">CSR Definition</a></li>
+									<li><a href="">Si Li Ji Ren Foundation</a></li>
+
+								</ul>
+							</li>
+							<li>
+								<a href="#">Contact Us
+									<span class="visible-xs glyphicon glyphicon-menu-right"></span>
+								</a>
+							</li>
+
+							<li class="lang visible-xs"><a href="">English</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- KV -->
+
+	<div class="container about_us">
+		<div class="list-item">
+			<p>
+				<!--                    <img src="img/abuot-title.png" alt="pc_業務範疇">-->
+				Our Products
+			</p>
+			<img src="img/aboutus_banner.jpg" class="about_bg ie-only">
+		</div>
+	</div>
+
+	<!-- end  KV -->
+
+
+	<div class="wrapper index-service-box about_wrapper">
+		<div class="container title hidden-xs">
+			<p style="color:#707070;"><span><a href="" style="color:#707070;">Home</a></span>><span> Our Products - Infinitus Product Category</span>
+			</p>
+		</div>
+		<h2 class="title  main_title_arr">
+			<!--            <img src="img/abuot-title2.png" alt="健康產品與服務">-->
+			<span>Infinitus Product Category</span>
+
+		</h2>
+		<div class=" top_title">
+            <div class="container">
+                <!--<h3>公司的六大责任</h3>-->
+	            <p>The systematic modernization of Tradition Chinese Medicine in recent decades, and its integration with Western medicine, has given rise to a new healthcare model increasingly adopted around the world. We are dedicated to develop an entire line of revolutionary products with emphasis on health promotion and disease prevention based on findings from the latest scientific research on the integration of modern Western medicine and Traditional Chinese medicine. With annual investment of RMB 100 million, the various joint collaboration initiatives have yielded six major brands with more than 80 products in the line-up. We hold the right to 35 patents on core technologies that involved complex polysaccharides, Schisandrin B, compound whitening factor, active peptides, plant glycoside, epidermal growth factor and sapidus saponins, etc.</p>
+            </div>
+        </div>
+	</div>
+
+
+	<!-- pc版 content -->
+	<div class="hidden-xs">
+        <div class="wrapper">
+            <div class="container ">
+                <div class="duty_cont">
+                    <ul class="tabss">
+                        <li><a href="#tab1">Health & Food</a></li>
+                    </ul>
+                    <div class="tab_container">
+                        <div id="tab1">
+                            <div class="tab_tx1">
+                                Infinitus health products are developed based on TCM concepts. High-tech extracted natural plant essences are combined with traditional Chinese herbs to stimulate the body’s immunity and resistance. By adjusting the physiological functions of all body parts, organs will recover through self-regulation and self-repairing. Infinitus health products have been well received by consumers because of their high quality, safety and efficiency.
+                            </div>
+                            <div class="tab_con_tx clearfix">
+                                <div class="col-sm-3 col_tx">
+                                    <div class="business_bn">
+										<div class="business_slider_full">
+											<div class="item"><img src="img/product/b_2Infinitus_PremiumNutrientsForBetterHealth.jpg" alt="Premium Nutrients For Better Health" ></div>
+											<!--<div class="item"><img src="img/product/b_2Infinitus_PremiumNutrientsForBetterHealth.jpg" alt="Premium Nutrients For Better Health" ></div>-->
+										</div>
+									</div>
+                                </div>
+                                <div class="col-sm-9 col_tx">
+                                    <div class="col_text">
+                                        <div class="col_text_right">
+                                            <span>
+                                                <h3>Premium Nutrients For Better Health</h3>
+                                                <p>
+                                                    <b>Brand: </b>Infinitus<br>
+                                                    <b>Specifications: </b>120 Tablets<br>
+                                                    <b>Attributes: </b>Infinitus Health Food<br>
+                                                </p>
+                                                <p>Premium Nutrients for Better Health is  produced from the highest quality Chinese herbs. Highly concentratedion of Compound Polysaccharides are extracted using our advanced technology .Compound Polysaccharides can be absorbed by the intestines in their complete form, which can prevent disease and enhance immunity.</p>
+                                                <p>For over 20 years, Infinitus has perfected its formulation of Compound Polysaccharides</p>
+                                                <p>Produced from the highest quality Chinese herbs</p>
+                                                <p>Patented effects for boosting immunity</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab_con_tx clearfix">
+                                <div class="col-sm-3 col_tx">
+                                    <div class="business_bn">
+										<div class="business_slider_full">
+											<div class="item"><img src="img/product/b_b_ca_lingzhi.jpg" alt="Royal Lingzhi Plus" ></div>
+											<!--<div class="item"><img src="img/product/b_2Infinitus_PremiumNutrientsForBetterHealth.jpg" alt="Premium Nutrients For Better Health" ></div>-->
+										</div>
+									</div>
+                                </div>
+                                <div class="col-sm-9 col_tx">
+                                    <div class="col_text">
+                                        <div class="col_text_right">
+                                            <span>
+                                                <h3>Royal Lingzhi Plus</h3>
+                                                <p>
+                                                    <b>Brand: </b>Infinitus<br>
+                                                    <b>Specifications: </b>120 Tablets<br>
+                                                    <b>Attributes: </b>Infinitus Health Food<br>
+                                                </p>
+                                                <p>Royal Lingzhi Plus is made with selected Red Lingzhi utilizing advanced technology for optimum extraction of polysaccharides, which can build a stronger body.</p>
+                                                <p>- Made with selected Red Lingzhi</p>
+	                                            <p>- Prepared as a Chinese Medicine Compound for optimum efficacy and safety</p>
+                                                <p>- Patented formulation provides enhanced anti-oxidant benefits</p>
+	                                            <p>* Chinese Medicine Compounds are developed by blending various medicinal ingredients in synergistic ratios to enhance efficacy. </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tab1 over-->
+                    </div>
+                    <!--tab_container-->
+                </div>
+                <!--  duty_cont-->
+            </div>
+        </div>
+	</div>
+	<!-- pc版 content_over -->
+
+
+	<!-- mobile 版 content -->
+	<div class="visible-xs">
+        <ul class="accordion mo_list-expandable wrapper about_wrapper">
+            <li class="mo_item">
+                <a href="javascript:;">
+                    <div class="hd"><span class="tx">Health & Food</span></div>
+                </a>
+                <div class="bd">
+                    <div class="panes">
+                        <div class="pane car_mb_con" style="display:block;">
+                            <div class="mbl_title">Infinitus health products are developed based on TCM concepts. High-tech extracted natural plant essences are combined with traditional Chinese herbs to stimulate the body’s immunity and resistance. By adjusting the physiological functions of all body parts, organs will recover through self-regulation and self-repairing. Infinitus health products have been well received by consumers because of their high quality, safety and efficiency.</div>
+                            <div class="business_item item_box ">
+								<div class="business_bn ">
+									<div class="business_slider_full">
+										<div class="item"><img src="img/product/b_2Infinitus_PremiumNutrientsForBetterHealth.jpg" alt="Premium Nutrients For Better Health" ></div>
+									</div>
+								</div>
+                                <div class="text">
+									<div class="about_1_4">
+										<h3 class="red">Premium Nutrients For Better Health</h3>
+										<div class="ts2">
+											<div class="txt">
+												<p>
+                                                    <b>Brand: </b>Infinitus<br>
+                                                    <b>Specifications: </b>120 Tablets<br>
+                                                    <b>Attributes: </b>Infinitus Health Food<br>
+                                                </p>
+                                                <p>Premium Nutrients for Better Health is  produced from the highest quality Chinese herbs. Highly concentratedion of Compound Polysaccharides are extracted using our advanced technology .Compound Polysaccharides can be absorbed by the intestines in their complete form, which can prevent disease and enhance immunity.</p>
+                                                <p>For over 20 years, Infinitus has perfected its formulation of Compound Polysaccharides</p>
+                                                <p>Produced from the highest quality Chinese herbs</p>
+                                                <p>Patented effects for boosting immunity</p>
+											</div>
+										</div>
+									</div>
+								</div>
+                            </div>
+	                        <div class="business_item item_box ">
+								<div class="business_bn ">
+									<div class="business_slider_full">
+										<div class="item"><img src="img/product/b_b_ca_lingzhi.jpg" alt="Premium Nutrients For Better Health" ></div>
+									</div>
+								</div>
+                                <div class="text">
+									<div class="about_1_4">
+										<h3 class="red">Royal Lingzhi Plus</h3>
+										<div class="ts2">
+											<div class="txt">
+												<p>
+                                                    <b>Brand: </b>Infinitus<br>
+                                                    <b>Specifications: </b>120 Tablets<br>
+                                                    <b>Attributes: </b>Infinitus Health Food<br>
+                                                </p>
+                                                <p>Royal Lingzhi Plus is made with selected Red Lingzhi utilizing advanced technology for optimum extraction of polysaccharides, which can build a stronger body.</p>
+                                                <p>- Made with selected Red Lingzhi</p>
+	                                            <p>- Prepared as a Chinese Medicine Compound for optimum efficacy and safety</p>
+                                                <p>- Patented formulation provides enhanced anti-oxidant benefits</p>
+	                                            <p>* Chinese Medicine Compounds are developed by blending various medicinal ingredients in synergistic ratios to enhance efficacy. </p>
+											</div>
+										</div>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+	</div>
+	<!-- end mobile 版 content -->
+
+
+
+
+	<div class="top_btn_too visible-xs"><a href="#top" class="top"></a></div>
+
+	<footer>
+		<div class="links">
+			<div class="container">
+				<div class="row hidden-xs">
+					<div class="footer_col_ca">
+						<h2>About Us</h2>
+						<a href="">Corporate Core Value</a>
+						<a href="about_1_2.html">Company Introduction </a>
+						<a href="about_1_3.html">Group Milestones</a>
+						<a href="about_qa_1_5.html">Awards & Recognitions</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Health Philosophy</h2>
+						<a href="">Infinitus Health Philosophy</a>
+						<a href="">Life Nurturing</a>
+						<a href="">Healthy Life</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Our Products</h2>
+						<a href="">Infinitus Product Category</a>
+						<a href="">Health & Food</a>
+						<a href="">Quality Assurance</a>
+						<a href="">R&D Strength</a>
+						<a href="">Uniqueness of Our Products</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Business Opportunity</h2>
+						<a href="">Become Business Partner</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>News</h2>
+						<a href="">News</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>CSR</h2>
+						<a href="">CSR Commitment</a>
+						<a href="">CSR Report</a>
+						<a href="">CSR Definition</a>
+						<a href="">Si Li Ji Ren Foundation</a>
+					</div>
+					<div class="footer_col_ca">
+						<h2>Contact Us</h2>
+						<a href="">Contact Us</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="copyright">
+
+			<div class="container">
+				<ul class="footer-nav ">
+                    <li class="split"><a href="">Confidentiality and Privacy policy</a></li>
+                    <li><a href="">Statement of Typical Participant Earnings</a></li>
+				</ul>
+				<div class="lkk">
+					©2016 LKK Health Products Group.<br>
+					<span>All rights reserved. 李锦记健康产品集团</span>
+					<span class="suggest"><br>建议浏览器: IE10.0 以上，Chrome (荧幕设定最佳显示效果为1024*768)</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/bxslider/jquery.bxslider.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<script src="js/jquery_select.js"></script>
+	<script src="js/jquery.dotdotdot.min.js"></script>
+	<script src="js/main_add.js"></script>
+
+	<script type="text/javascript">
+		if (isIE(9) || isIE(8)) {
+			document.write('<script type="text/javascript" src="js/idangerous.swiper.js"><\/script>');
+		} else {
+			document.write('<script type="text/javascript" src="js/swiper.min.js"><\/script>');
+		}
+	</script>
+	<script type="text/javascript" src="js/ie-hack.min.js"></script>
+
+</body>
+</html>
+
