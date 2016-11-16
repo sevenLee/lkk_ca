@@ -2488,7 +2488,6 @@ footer .footer-nav li a {
 
 .top_title p {
     color: #797979;
-    text-align: center;
     font-size: 14px;
 }
 
@@ -2927,7 +2926,7 @@ footer .footer-nav li a {
     vertical-align: middle;
     height: 250px;
     position: relative;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .col_text .col_text_right:before {
@@ -2949,7 +2948,7 @@ footer .footer-nav li a {
     position: relative;
 }
 
-.col_text .col_text_right p {
+.col_text .col_text_right h3 {
     color: #dd0014;
     font-size: 18px;
 }
@@ -3794,6 +3793,10 @@ li .qrco:before {
 
 .business_item .bx-wrapper .bx-pager {
     bottom: 15px;
+}
+
+.business_item .bx-wrapper img{
+    width: 100%;
 }
 
 .business_item .text {
