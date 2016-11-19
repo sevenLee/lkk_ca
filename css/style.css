@@ -167,8 +167,8 @@ header .container,
     width: 100%;
 }
 
-.top-nav > li.bgnone > .social-item:hover {
-
+.top-nav > li.bgnone > .social-item:hover .qr{
+    display: block;
 }
 
 .top-nav li.open>.dropdown-menu {
